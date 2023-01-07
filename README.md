@@ -1,10 +1,11 @@
 # Waste dataset
 
-This original dataset for training neural networks to recognize household waste. 
-No other datasets have been added to it yet.
-This dataset contains 2435 images divided into 19 classes.
+## dataset_0
 
-Resolution of images 512*512
+This original dataset for training neural networks to recognize household waste. 
+Contains 2435 images divided into 19 classes.
+
+Resolution of images 512x512
 
 ## Contains classes:
 
@@ -27,3 +28,32 @@ Resolution of images 512*512
 * trash 		 		20
 * polystyrene 		 	17
 * paper_cup 		 	13
+
+
+## dataset_1/ dataset_1_without_borders
+
+This is reconstructed [Kaggle "Garbage classification"](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification) dataset.
+Contains 2532 images
+
+Resolution 512x512/ 512x384
+
+* paper					598
+* glass 				502
+* cardboard 			403
+* metal 				199
+* pet 					195
+* plastic_transparent 	152
+* alu_can 				148
+* plastic_other 		137
+* plastic_package 		77
+* alu_cover 			65
+* dirty 				29
+* bio 					6
+* paper_cup 			6
+* plastic_cup 			5
+* trash 				4
+* tablet_blister 		3
+* polystyrene 			3
+* tetra_pak 			0
+* check 				0
+
